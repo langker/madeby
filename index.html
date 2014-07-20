@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>MdeBy 调查问卷</title>
+		<link type="text/css" rel="stylesheet" href="css/base.css">
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+		<link type="text/css" rel="stylesheet" href="css/bootstrap-responsive.css">
+		<link type="text/css" rel="stylesheet" href="css/bootstrap-responsive.min.css">
+		<script src="js/jquery-1.11.0.min.js"></script>
+	</head>
+	<body>
+		<div id="invbg">
+			<img class="invbgimg" src="img/xpic391711_s.jpg" >
+		</div>
+		<div id="invmain">
+			<div id="quehd">
+				<div id="quelg">
+					<img class="quelgimg" src="img/logo.png">
+				</div>
+			</div>
+			<div id="quebd">
+				<h2 id="quetit">动漫大调查</h2>
+				<ul id="quels">
+					<li class="quelsl">
+						<div class="quedt">
+							<p>1.(´•ω•`๑)亲你买过动漫周边吗～</p>
+							<label class="radio">
+								<input type="radio" name="n1" id="optionsRadios1" value="1A" >
+								A.(ﾟωﾟ)当然！
+							</label>
+							<label class="radio">
+								<input type="radio" name="n1" id="optionsRadios2" value="1B">
+								B.→_→周边是什么能吃吗
+							</label>
+						</div>
+					</li>
+					<li class="quelsl">
+						<div class="quedt">
+							<p>2.(#ﾟДﾟ)一直炒鸡想要的周边是什么！</p>
+							<label class="checkbox">
+								<input type="checkbox" name="v2" value="2A">
+								A.(｡ì _ í｡)手办啦手办！
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="v2" value="2B">
+								B.(○ﾟεﾟ○)抱枕床单大公仔！
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="v2" value="2C">
+								C.(´•ω•`๑)水杯钱包钥匙扣卡贴海报文具之类的……
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="v2" value="2D">
+								D.(/ω＼)好看的痛衫！
+							</label>
+							<label class="checkbox">
+								<input class="v2f quef"  type="checkbox" name="v2" value="">
+							</label>
+							<div class="queed ">E.<input  class="underline v2fv vv" placeholder="其他"></div>
+						</div>
+					</li>
+					<li class="quelsl">
+						<div class="quedt">
+							<p>3.(/ω＼)如果可以自己定制，无论怎样羞涩的都好，想要一下哪种周边呢～</p>
+							<label class="checkbox quecx" >
+								<input class="v3a v3" name="v3" id="v3" type="checkbox" value="3A" >
+								A.(´•ω•`๑)当然是被子和床单啦！	
+							</label>
+							<div class="n4" id="n4a" style="display:none">
+								<p>╰(*´︶`*)╯定制周边能接受的价格？</p>
+							    <label class="checkbox inline">
+							    <input type="radio" name="n4a" id="inlineCheckbox1" value="option1">A.100以下吧～(#ﾟДﾟ)
+							    </label>
+							    <label class="checkbox inline">
+							    <input type="radio" name="n4a"  id="inlineCheckbox2" value="option2">B.100～300嗯(´•ω•`๑)
+							    </label>
+							    <label class="checkbox inline">
+							    <input type="radio" name="n4"a id="inlineCheckbox3" value="option3">C.300～500也可以噢(*´ω｀*)
+							    </label>
+							</div>
+							<label class="checkbox quecx">
+								<input class="v3b v3" name="v3" type="checkbox" value="3B">
+								B.٩(๑òωó๑)۶等身抱枕赛高！
+							</label>
+							<div class="n4" id="n4a" style="display:none">
+								<p>╰(*´︶`*)╯定制周边能接受的价格？</p>
+							    <label class="checkbox inline">
+							    <input type="radio" name="n4b" id="inlineCheckbox1" value="A">A.100以下吧～(#ﾟДﾟ)
+							    </label>
+							    <label class="checkbox inline">
+							    <input type="radio" name="n4b"  id="inlineCheckbox2" value="B">B.100～300嗯(´•ω•`๑)
+							    </label>
+							    <label class="checkbox inline">
+							    <input type="radio" name="n4b" id="inlineCheckbox3" value="C">C.300～500也可以噢(*´ω｀*)
+							    </label>
+							</div>
+							<label class="checkbox quecx">
+								<input class="v3c v3" name="v3" type="checkbox" value="3C">
+								C.(๑´ω`๑)穿出门也大丈夫的衣服！
+							</label>
+							<div class="n4" id="n4a" style="display:none">
+								<p>╰(*´︶`*)╯定制周边能接受的价格？</p>
+							    <label class="checkbox inline">
+							    <input type="radio" name="n4c" id="inlineCheckbox1" value="A">A.100以下吧～(#ﾟДﾟ)
+							    </label>
+							    <label class="checkbox inline">
+							    <input type="radio" name="n4c"  id="inlineCheckbox2" value="B">B.100～300嗯(´•ω•`๑)
+							    </label>
+							    <label class="checkbox inline">
+							    <input type="radio" name="n4c" id="inlineCheckbox3" value="C">C.300～500也可以噢(*´ω｀*)
+							    </label>
+							</div>
+							<label class="checkbox quecx">
+								<input class="v3d v3" name="v3" type="checkbox" value="3D">
+								D.(｡･ω･｡) 钱包杯子什么的啦……
+							</label>
+							<div class="n4" id="n4a" style="display:none">
+								<p>╰(*´︶`*)╯定制周边能接受的价格？</p>
+							    <label class="checkbox inline">
+							    <input type="radio" name="n4d" id="inlineCheckbox1" value="A">A.100以下吧～(#ﾟДﾟ)
+							    </label>
+							    <label class="checkbox inline">
+							    <input type="radio" name="n4d"  id="inlineCheckbox2" value="B">B.100～300嗯(´•ω•`๑)
+							    </label>
+							    <label class="checkbox inline">
+							    <input type="radio" name="n4d" id="inlineCheckbox3" value="C">C.300～500也可以噢(*´ω｀*)
+							    </label>
+							</div>
+							<label class="checkbox quecx">
+								<input class="v3e" name="v3" type="checkbox" value="3E">
+								E.(´-ω-`)对周边不感兴趣呢……
+							</label>
+							<label  class="checkbox quecx">
+								<input class="v3f quef" name="v3" type="checkbox" value="">
+							</label>
+							<div class="queed" >F.(/ω＼)我觉得应该是<input class="underline v3fv vv" ></div>
+							<div class="n4" style="display:none">
+								<p>╰(*´︶`*)╯定制周边能接受的价格？</p>
+							    <label class="checkbox inline">
+							    <input type="radio" name="n4f" id="inlineCheckbox1" value="A">A.100以下吧～(#ﾟДﾟ)
+							    </label>
+							    <label class="checkbox inline">
+							    <input type="radio" name="n4f"  id="inlineCheckbox2" value="B">B.100～300嗯(´•ω•`๑)
+							    </label>
+							    <label class="checkbox inline">
+							    <input type="radio" name="n4f" id="inlineCheckbox3" value="C">C.300～500也可以噢(*´ω｀*)
+							    </label>
+							</div>
+						</div>
+						
+					</li>
+					<li class="quelsl">
+						<div class="quedt">
+							<p>4.٩(๑❛   ❛๑)۶那，那么关于质量和价格…</p>
+							<label class="radio">
+								<input type="radio" name="n5" id="optionsRadios1" value="A" >
+								A.╰(*´︶`*)╯嘛～价格要低～质量过关就可以了～
+							</label>
+							<label class="radio">
+								<input type="radio" name="n5" id="optionsRadios2" value="B">
+								B.(#ﾟДﾟ)价格高一点有什么关系，质量什么的必须给我保证啊喂！
+							</label>
+						</div>
+					</li>
+					<li class="quelsl">
+						<div class="quedt">
+							<p>5.(*´ω｀*)你和小伙伴们总是在哪里玩耍呢～</p>
+							<label class="checkbox">
+								<input name="v6" type="checkbox" value="6A">
+								A.企鹅群～(๑´ω`๑)
+							</label>
+							<label class="checkbox">
+								<input name="v6" type="checkbox" value="6B">
+								B.度娘贴吧！(#ﾟДﾟ)
+							</label>
+							<label class="checkbox">
+								<input name="v6" type="checkbox" value="6C">
+								C.微博哈哈哈哈哈(/ω＼)
+							</label>
+							<label class="checkbox">
+								<input name="v6" type="checkbox" value="6D">
+								D.论坛啦～╰(*´︶`*)╯
+							</label>
+							<label class="checkbox">
+								<input class="v6f quef" name="v6" type="checkbox" value="">
+							</label>
+							<div class="queed">E.<input  class="underline v6fv vv" placeholder="其他"></div>
+						</div>
+					</li>
+					<li class="quelsl">
+						<div class="quedt">
+							<p>6.(≧▽≦)你曾买过cosplay的服饰或者道具吗～</p>
+							<label class="radio">
+								<input type="radio" name="n7" id="optionsRadios1" value="A" >
+								A.(｡･ω･｡) 买过
+							</label>
+							<label class="radio">
+								<input type="radio" name="n7" id="optionsRadios2" value="B">
+								B.(○ﾟεﾟ○)暂时没有
+							</label>
+							<label class="radio">
+								<input type="radio" name="n7" id="optionsRadios2" value="C">
+								C.(#ﾟДﾟ)没买过，但是想买！
+							</label>
+						</div>
+					</li>
+					<li class="quelsl">
+						<div class="quedt">
+							<p>7.(#ﾟДﾟ)买cos道具和衣服好贵啊神烦，有想过自己DIY吗～</p>
+							<label class="radio">
+								<input type="radio" name="n8" id="optionsRadios1" value="A" >
+								A.（｀Δ´）当然！！
+							</label>
+							<label class="radio">
+								<input type="radio" name="n8" id="optionsRadios2" value="B">
+								B.⊙▽⊙别闹，我又不是手工帝
+							</label>
+						</div>
+					</li>
+					<li class="quelsl">
+						<div class="quedt">
+							<p>8.(๑´ω`๑)古风什么的想过来一发吗？</p>
+							<label class="radio">
+								<input type="radio" name="n9" id="optionsRadios1" value="A" >
+								A.(/ω＼)古装什么的不能更赞！
+							</label>
+							<label class="radio">
+								<input type="radio" name="n9" id="optionsRadios2" value="B">
+								B.(○ﾟεﾟ○)没兴趣……
+							</label>
+						</div>
+					</li>
+					<li class="quelsl">
+						<div class="quedt">
+							<p>9.(๑･㉨･๑)周边或者cos物品购物渠道？</p>
+							<label class="checkbox">
+								<input type="checkbox" name="v10" value="10A">
+								A.淘宝一下～⊙ω⊙
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="v10" value="10B">
+								B.贴吧交易贴！(○ﾟεﾟ○)
+							</label>
+							<label class="checkbox">
+								<input type="checkbox" name="v10" value="10C">
+								C.还是实体店放心呢→_→
+							</label>
+							<label class="checkbox">
+								<input type="checkbox"name="v10" value="10D">
+								D.自己动手，丰衣足食(๑´ω`๑)
+							</label>
+							
+						</div>
+					</li>
+					<li class="quelsl">
+						<div class="quedt">
+							<p>10.(ﾟДﾟ)ﾉ觉得目前的二手交易方便吗？</p>
+							<label class="radio">
+								<input type="radio" name="n11" id="optionsRadios1" value="11A" >
+								A.(ﾟωﾟ)当然方便啦！
+							</label>
+							<label class="radio">
+								<input type="radio" name="n11" id="optionsRadios2" value="11B">
+								B.(*´ω｀*)还行吧
+							</label>
+							<label class="radio">
+								<input type="radio" name="n11" id="optionsRadios1" value="11C" >
+								C.(#ﾟДﾟ)马蛋啊好麻烦！还要防骗纸！
+							</label>
+							<label class="radio">
+								<input type="radio" name="n11" id="optionsRadios2" value="11D">
+								D.(○ﾟεﾟ○)没有试过二手交易
+							</label>
+						</div>
+					</li>	
+				</ul>
+				<div class="quemail">
+					<p>填邮箱，送福利</p>
+					<input class="quemailtxt" type="text" placeholder="邮箱">
+				</div>
+				<button type="button" class="btn btn-primary quebt submit ">提交</button>
+
+			</div>
+			<div id="footer"></div>
+		</div>
+		<script>
+		$(".v2fv").blur(function() {
+			if($(this).val()!=""){
+				$(".v2f").val($(this).val());
+			};
+		});
+		$(".v6fv").blur(function() {
+			if($(this).val()!=""){
+				$(".v6f").val($(this).val());
+				$(this).parent().next().css('display','block');
+			}
+			else
+				$(this).parent().prev().children()[0].checked=false;
+		});	
+		$(".v3fv").focus(function() {
+			$(this).parent().prev().children()[0].checked=true;
+		})	
+		$(".v3fv").blur(function() {
+			if($(this).val()!=""){
+				$(".v3f").val($(this).val());
+				$(this).parent().next().css('display','block');
+			}
+			else
+				$(this).parent().prev().children()[0].checked=false;	
+		});
+		$(".vv").focus(function() {
+			$(this).parent().prev().children()[0].checked=true;
+		})
+		$(".v3").click(function() {
+			if($(this)[0].checked){
+				$(this).parent().next().css('display','block');
+			}
+			else
+				$(this).parent().next().css('display','none');
+			
+		});
+		$(".quef").click(function() {
+			if($(this)[0].checked)
+				$(this).parent().next().children('input').focus();
+
+		})
+		function ravalue(name) {
+			var length=name.length;
+			var radioname;
+			for(var i=0;i<length;i++){
+				if(name[i].checked){
+					radioname=name[i].value;
+					return radioname;
+				};
+			}
+		}
+		function erfinish() {
+
+		} 
+		function radio(name) {
+			var length=name.length;
+			var radioname;
+			for(var i=0;i<length;i++){
+				if(name[i].checked){
+					radioname=name[i].value;
+					return radioname;
+				};
+				
+			}
+			if(radio==null)
+				erfinish();
+		}
+		function selectname(name) {
+			var length =name.length;
+			var selectvalue=new Array();
+			for(var i=0,n=-1;i<length;i++){
+				if(name[i].checked){
+					n++;
+					selectvalue[n]=name[i].value;
+
+				}
+
+				
+			}
+			if(selectvalue==null)
+				erfinish();
+			else
+				return selectvalue;	
+		}
+		$(".submit").click(function() {
+			var n1=radio($("[name='n1']"));
+			var v2=selectname($("[name='v2']"));
+			var v3=selectname($("[name='v3']"));
+			var n4a=ravalue($("[name=n4a]"));
+			var n4b=ravalue($("[name=n4b]"));
+			var n4c=ravalue($("[name=n4c]"));
+			var n4d=ravalue($("[name=n4d]"));
+			var n4f=ravalue($("[name=n4f]"));
+			var n5=radio($("[name='n5']"));
+			var v6=selectname($("[name='v6']"));
+			var n7=radio($("[name='n7']"));
+			var n8=radio($("[name='n8']"));
+			var n9=radio($("[name='n9']"));
+			var v10=selectname($("[name='v10']"));
+			var n11=radio($("[name='n11']"));
+			var mail=$(".quemailtxt").val();
+			$.ajax({
+	                        type:"post",
+	                        url:"insert.php",
+	                        data:{
+	                            "n1":n1,
+	                            "v2":v2,
+	                            "v3":v3,
+	                            "n4a":n4a,
+	                            "n4b":n4b,
+	                            "n4c":n4c,
+	                            "n4d":n4d,
+	                            "n4af":n4f,
+	                            "n5":n5,
+	                            "v6":v6,
+	                            "n7":n7,
+	                            "n8":n8,
+	                            "n9":n9,
+	                            "v10":v10,
+	                            "n11":n11,
+	                            "mail":mail
+	                        }
+	                    }).done(function(data){
+	                        /*if($.parseJSON(data).status=="true"){
+	                            $("#want_num").text($.parseJSON(data).want);
+	                            }*/alert(data);
+	                        
+	        });	
+		})
+			
+		</script>
+	</body>
+</html>
